@@ -1,0 +1,66 @@
+body {
+      background-image: url(../../image/logo.png); /* Outer soft pink background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Georgia, serif;
+    }
+
+    .registration-card {
+      background-color: #e695dfea ; /* Inner card background */
+      border: 1px solid #e69595;
+      border-radius: 4px;
+      width: 100%;
+      max-width: 1000px;
+      padding: 35px 40px;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.05);
+    }
+
+    .form-title {
+      color: #5c1d1d;
+      font-weight: bold;
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+    }
+
+    .form-label {
+      color: #2b1212;
+      font-weight: bold;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+
+    .form-control {
+      border: 1px solid #ff0000af;
+      border-radius: 4px;
+      padding: 10px 14px;
+      font-size: 0.95rem;
+      color: #111313ea;
+      background-color: #ffffff00;
+    }
+
+    .form-control:focus {
+      border-color: #a83232;
+      box-shadow: 0 0 0 0.2rem rgba(168, 50, 50, 0.15);
+    }
+
+    .btn-register {
+      background-color: #9c3030;
+      border: none;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 11px;
+      border-radius: 4px;
+      width: 100%;
+      margin-top: 10px;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-register:hover {
+      background-color: #00f7f7;
+      color: #ffffff;
+    }
